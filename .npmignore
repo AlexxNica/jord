@@ -1,0 +1,9 @@
+.npmignore
+webpack.config.js
+.idea
+src
+test
+tsconfig.json
+.gitignore
+*.tgz
+yarn.lock

@@ -1,0 +1,46 @@
+{
+  "name": "jord",
+  "version": "0.0.1",
+  "description": "A game engine for small web based games.",
+  "main": "dist/jord.js",
+  "scripts": {
+    "test": "jest",
+    "prebuild": "rimraf dist",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhmoller/jord.git"
+  },
+  "keywords": [
+    "game",
+    "engine",
+    "gamedev",
+    "webgl",
+    "typescript"
+  ],
+  "author": "Rene Hangstrup Møller <rhmoller@gmail.com> (http://giddyplanet.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhmoller/jord/issues"
+  },
+  "homepage": "https://github.com/rhmoller/jord#readme",
+  "devDependencies": {
+    "@types/jest": "^16.0.4",
+    "jest": "^18.1.0",
+    "rimraf": "^2.5.4",
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.5",
+    "webpack": "beta"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    },
+    "testRegex": "/test/.*\\.(ts|js)$"
+  }
+}
