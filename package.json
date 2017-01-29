@@ -4,7 +4,8 @@
   "description": "A game engine for small web based games.",
   "main": "dist/jord.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
+    "report-coverage": "cat ./coverage/lcov.info |  codecov",
     "prebuild": "rimraf dist",
     "build": "webpack",
     "commit": "git-cz",
@@ -29,6 +30,7 @@
   "homepage": "https://github.com/rhmoller/jord#readme",
   "devDependencies": {
     "@types/jest": "^16.0.4",
+    "codecov.io": "^0.1.6",
     "commitizen": "^2.9.5",
     "cz-conventional-changelog": "^1.2.0",
     "jest": "^18.1.0",
