@@ -4,7 +4,7 @@ module.exports = {
   entry: "./src/index.ts",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "jord.ts",
+    filename: "jord.js",
     library: "jord",
     libraryTarget: "umd"
   },
