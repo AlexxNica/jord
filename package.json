@@ -48,7 +48,9 @@
     },
     "testRegex": "/test/.*\\.(ts|js)$"
   },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
