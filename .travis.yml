@@ -6,8 +6,9 @@ notifications:
   email: false
 node_js:
   - '7'
-  - '6'
-  - '4'
+branches:
+  only:
+    - master
 before_script:
   - npm prune
 script:
