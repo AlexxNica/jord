@@ -7,3 +7,4 @@ tsconfig.json
 .gitignore
 *.tgz
 yarn.lock
+.travis.yml
