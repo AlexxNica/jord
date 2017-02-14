@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/rhmoller/jord#readme",
   "devDependencies": {
-    "@types/jest": "^16.0.4",
+    "@types/jest": "^18.1.1",
     "codecov.io": "^0.1.6",
     "commitizen": "^2.9.5",
     "cz-conventional-changelog": "^1.2.0",
@@ -40,7 +40,7 @@
     "tslint": "^4.4.2",
     "tslint-loader": "^3.4.2",
     "typescript": "^2.1.5",
-    "webpack": "beta"
+    "webpack": "^2.2.1"
   },
   "jest": {
     "moduleFileExtensions": [
