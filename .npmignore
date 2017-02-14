@@ -8,3 +8,5 @@ tsconfig.json
 *.tgz
 yarn.lock
 .travis.yml
+coverage
+preprocessor.js

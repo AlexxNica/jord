@@ -37,6 +37,8 @@
     "rimraf": "^2.5.4",
     "semantic-release": "^6.3.2",
     "ts-loader": "^2.0.0",
+    "tslint": "^4.4.2",
+    "tslint-loader": "^3.4.2",
     "typescript": "^2.1.5",
     "webpack": "beta"
   },
