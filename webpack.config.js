@@ -10,7 +10,7 @@ module.exports = {
     },
     module: {
         rules: [
-            {test: /\.ts$/, enforce: "pre", loader: "tslint-loader"},
+            {test: /\.ts$/, enforce: "pre", loader: "tslint-loader", exclude: /node_modules/},
             {test: /\.ts$/, loader: "ts-loader", exclude: /node_modules/}
         ]
     },
